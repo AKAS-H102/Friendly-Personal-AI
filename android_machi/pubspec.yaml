@@ -1,0 +1,39 @@
+name: machi_assistant
+description: "Machi - Friendly Personal AI Assistant for Android (OPPO CPH2527)"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Animations
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+  # Voice & Speech
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+
+  # Persistence & Background
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^17.0.0
+  workmanager: ^0.5.2
+
+  # Device Hardware & Permissions
+  permission_handler: ^11.3.0
+  url_launcher: ^6.2.5
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
